@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 # Nut-Team
 ## Project Idea: 
 Display of Pandemic Data as well as information and guidelines from the CDC on the Coronavirus and managing the Pandemic. Use of API's to update data real-time.

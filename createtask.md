@@ -1,6 +1,6 @@
 {% include navigation.html %}
 
-#Create Task Idea
+# Create Task Idea
 
 I want to create a game similar to the card game war.
 

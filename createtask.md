@@ -1,3 +1,7 @@
+{% include navigation.html %}
+
+#Create Task Idea
+
 I want to create a game similar to the card game war.
 
 - Input will be when the user pushes a button to place a "card"

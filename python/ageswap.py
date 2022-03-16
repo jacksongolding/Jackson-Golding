@@ -16,6 +16,3 @@ def swapTest():
   y = input("Second Number; ")
   swap(x,y)
 
-print("Number Swap")
-swapTest()
-print(" ")

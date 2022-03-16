@@ -16,6 +16,3 @@ def matrixTest():
     print(title)
     createMatrix(matrix)
     print()
-
-print("Matrix")
-matrixTest()

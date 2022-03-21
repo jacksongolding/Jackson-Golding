@@ -5,6 +5,8 @@
 import ageswap
 import matrix
 import animation
+import infodblist
+import fibonacci
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
@@ -13,12 +15,13 @@ main_menu = [
     ["Age Swap", ageswap.swapTest],
     ["Matrix", matrix.matrixTest],
     ["Animation", animation.ship],
+    ["Lists and Loops", infodblist.tester]
 ]
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
 sub_menu = [
-    ["Factors", None],
+    ["Fibonacci", fibonacci.fibonacciTest],
     ["GCD", None],
     ["LCM", None],
     ["Primes", None],

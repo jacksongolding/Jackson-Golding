@@ -7,21 +7,38 @@ import matrix
 import animation
 import infodblist
 import fibonacci
+import factorial
+import imperativelcm
+import ooplcm
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["Age Swap", ageswap.swapTest],
-    ["Matrix", matrix.matrixTest],
-    ["Animation", animation.ship],
-    ["Lists and Loops", infodblist.tester]
+    
 ]
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
+week0_sub_menu = [
+  ["Age Swap", ageswap.swapTest],
+  ["Matrix", matrix.matrixTest],
+  ["Animation", animation.ship]
+]
+
+week1_sub_menu = [
+  ["Lists and Loops", infodblist.tester],
+  ["Fibonacci", fibonacci.fibonacciTest]
+]
+
+week2_sub_menu = [
+  ["Factorial", factorial.factorialTest],
+  ["Imperative LCM", imperativelcm.lcmTest],
+  ["OOP LCM", ooplcm.ooplcmTest]
+]
 sub_menu = [
     ["Fibonacci", fibonacci.fibonacciTest],
+    ["Factorial", None],
     ["GCD", None],
     ["LCM", None],
     ["Primes", None],
@@ -45,6 +62,9 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
+    menu_list.append(["Week 0", week0_submenu])
+    menu_list.append(["Week 1", week1_submenu])
+    menu_list.append(["Week 2", week2_submenu])
     menu_list.append(["Math", submenu])
     menu_list.append(["Patterns", patterns_submenu])
     buildMenu(title, menu_list)
@@ -52,6 +72,15 @@ def menu():
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
+def week0_submenu():
+    title = "Week 0" + banner
+    buildMenu(title, week0_sub_menu)
+def week1_submenu():
+    title = "Week 1" + banner
+    buildMenu(title, week1_sub_menu)
+def week2_submenu():
+    title = "Week 2" + banner
+    buildMenu(title, week2_sub_menu)
 def submenu():
     title = "Function Submenu" + banner
     buildMenu(title, sub_menu)

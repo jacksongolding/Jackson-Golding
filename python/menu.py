@@ -2,14 +2,14 @@
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
 
-import ageswap
-import matrix
-import animation
-import infodblist
-import fibonacci
-import factorial
-import imperativelcm
-import ooplcm
+import Week0.ageswap
+import Week0.matrix
+import Week0.animation
+import Week1.infodblist
+import Week1.fibonacci
+import Week2.factorial
+import Week2.imperativelcm
+import Week2.ooplcm
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
@@ -21,33 +21,36 @@ main_menu = [
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
 week0_sub_menu = [
-  ["Age Swap", ageswap.swapTest],
-  ["Matrix", matrix.matrixTest],
-  ["Animation", animation.ship]
+  ["Age Swap", Week0.ageswap.swapTest],
+  ["Matrix", Week0.matrix.matrixTest],
+  ["Animation", Week0.animation.ship]
 ]
 
 week1_sub_menu = [
-  ["Lists and Loops", infodblist.tester],
-  ["Fibonacci", fibonacci.fibonacciTest]
+  ["Lists and Loops", Week1.infodblist.tester],
+  ["Fibonacci", Week1.fibonacci.fibonacciTest]
 ]
 
 week2_sub_menu = [
-  ["Factorial", factorial.factorialTest],
-  ["Imperative LCM", imperativelcm.lcmTest],
-  ["OOP LCM", ooplcm.ooplcmTest]
+  ["Factorial", Week2.factorial.factorialTest],
+  ["Imperative LCM", Week2.imperativelcm.lcmTest],
+  ["OOP LCM", Week2.ooplcm.ooplcmTest]
 ]
 sub_menu = [
-    ["Fibonacci", fibonacci.fibonacciTest],
-    ["Factorial", None],
-    ["GCD", None],
-    ["LCM", None],
-    ["Primes", None],
+    ["Fibonacci", Week1.fibonacci.fibonacciTest],
+    ["Factorial", Week2.factorial.factorialTest],
+    ["Imperative LCM", Week2.imperativelcm.lcmTest],
+    ["OOP LCM", Week2.ooplcm.ooplcmTest]
 ]
 
 patterns_sub_menu = [
-    ["Patterns", None],
-    ["PreFuncy", None],
-    ["Funcy", None],
+    ["Matrix", Week0.matrix.matrixTest],
+    ["Animation", Week0.animation.ship]
+]
+
+other_sub_menu = [
+    ["Age Swap", Week0.ageswap.swapTest],
+    ["Lists and Loops", Week1.infodblist.tester]
 ]
 
 # Menu banner is typically defined by menu owner
@@ -62,31 +65,23 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Week 0", week0_submenu])
-    menu_list.append(["Week 1", week1_submenu])
-    menu_list.append(["Week 2", week2_submenu])
     menu_list.append(["Math", submenu])
     menu_list.append(["Patterns", patterns_submenu])
+    menu_list.append(["Other", other_submenu])
     buildMenu(title, menu_list)
 
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-def week0_submenu():
-    title = "Week 0" + banner
-    buildMenu(title, week0_sub_menu)
-def week1_submenu():
-    title = "Week 1" + banner
-    buildMenu(title, week1_sub_menu)
-def week2_submenu():
-    title = "Week 2" + banner
-    buildMenu(title, week2_sub_menu)
 def submenu():
-    title = "Function Submenu" + banner
+    title = "Math" + banner
     buildMenu(title, sub_menu)
 def patterns_submenu():
-    title = "Function Submenu" + banner
+    title = "Patterns" + banner
     buildMenu(title, patterns_sub_menu)
+def other_submenu():
+    title = "Other" + banner
+    buildMenu(title, other_sub_menu)
 
 def buildMenu(banner, options):
     # header for menu

@@ -62,9 +62,9 @@
 
 ### GitHub Action
 
-1. Creative Commons - removes copyright on your work, making it public for all people to use
-   MIT - Work is used freely and closed sources can be easily made and distributed
-   GPL - Lets people use your work, but does not allow you to distribute closed sources
+1. - Creative Commons - removes copyright on your work, making it public for all people to use
+   - MIT - Work is used freely and closed sources can be easily made and distributed
+   - GPL - Lets people use your work, but does not allow you to distribute closed sources
 2. We used an MIT License because it gives a lot of freedom to the user and makes closed sources easy to make and distribute
 
 # 5.4

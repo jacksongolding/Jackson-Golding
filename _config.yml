@@ -1,4 +1,4 @@
-remote-theme: daattali/beautiful-jekyll@5.0.0
+remote_theme: daattali/beautiful-jekyll@5.0.0
 
 navbar-links:
   Home: "/"

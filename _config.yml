@@ -1,1 +1,7 @@
-theme: jekyll-theme-cayman
+remote-theme: daatali/beautiful-jekyll@5.0.0
+
+navbar-links:
+  Home: "/"
+  TPT Notes: "/cbnotes"
+  Create Task: "/createtask"
+  Python Project: "/python"

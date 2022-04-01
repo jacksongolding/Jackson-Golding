@@ -1,4 +1,6 @@
+{% include navigation.html %}
 
+# College Board Notes 5.1 and 5.2
 # 5.2
 
 ### Notes

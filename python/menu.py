@@ -1,7 +1,7 @@
 # menuy.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
-
+import math
 import Week0.ageswap
 import Week0.matrix
 import Week0.animation
@@ -10,6 +10,13 @@ import Week1.fibonacci
 import Week2.factorial
 import Week2.imperativelcm
 import Week2.ooplcm
+import Coop.OopFib
+import Coop.cube
+import Coop.cuberoot
+import Coop.sqrt
+import Coop.square
+
+
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
@@ -40,7 +47,12 @@ sub_menu = [
     ["Fibonacci", Week1.fibonacci.fibonacciTest],
     ["Factorial", Week2.factorial.factorialTest],
     ["Imperative LCM", Week2.imperativelcm.lcmTest],
-    ["OOP LCM", Week2.ooplcm.ooplcmTest]
+    ["OOP LCM", Week2.ooplcm.ooplcmTest],
+    ["OOP Fib", Coop.OopFib.Fibtest2],
+    ["Cube", Coop.cube.cube],
+    ["Cube Root", Coop.cuberoot.cubrt],
+    ["Square Root", Coop.sqrt.sqrt],
+    ["Square", Coop.square.square],
 ]
 
 patterns_sub_menu = [

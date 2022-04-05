@@ -6,6 +6,7 @@
 - [Week 0](https://github.com/jacksongolding/Jackson-Golding/issues/1)
 - [Week 1](https://github.com/jacksongolding/Jackson-Golding/issues/2)
 - [Week 2](https://github.com/jacksongolding/Jackson-Golding/issues/4)
+- [Week 3](https://github.com/jacksongolding/Jackson-Golding/issues/5)
 
 ### My GitHub Pages
 

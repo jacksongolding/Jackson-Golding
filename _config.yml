@@ -6,3 +6,4 @@ navbar-links:
   Create Task: "/createtask"
   Python Project: "/python"
   Accounts and Logins: "/login"
+  Quiz Corrections: "/quizcorrections"

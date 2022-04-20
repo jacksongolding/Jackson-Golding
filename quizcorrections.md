@@ -1,5 +1,3 @@
-# Quiz Corrections
-
 ## Quiz 1
 
 ### Question 6

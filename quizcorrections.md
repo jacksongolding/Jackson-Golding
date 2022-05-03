@@ -42,3 +42,35 @@ support, which may not always be the case.
 ![image](https://user-images.githubusercontent.com/89219498/165031998-2bcac7f1-ec31-4cfc-aa38-d59339aea203.png)
 
 I was confused because it said that the 4 directions used 4 bits even though 3 bits would be able to carry that much information. I knew that having 8 directions would only require 4 bits, but I second-guessed myself because of the 4 bits being used for 4 pieces of information.
+
+## Quiz 3
+
+### Question 2
+
+![image](https://user-images.githubusercontent.com/89219498/166408640-1d2aa3eb-d4a6-45a8-9444-eaf00228187f.png)
+
+It made sense to me that with a big enough algorithm, any problem could be solved if there is enough data. However, even though most problems can be solved algorithmically, there are still some that can't be.
+
+### Question 12
+
+![image](https://user-images.githubusercontent.com/89219498/166408863-e6c4db92-ef5d-433d-8337-21401a53653e.png)
+
+I misunderstood the response I chose as work changing from being copywritten to having a Creative Commons license. Work that was previously copywritten will still keep its restrictions after a Creative Commons license is used.
+
+### Question 18
+
+![image](https://user-images.githubusercontent.com/89219498/166409127-da61b085-9006-4ce1-84ee-2e05c0d0b8dc.png)
+
+I believed that the code segment would just return false no matter what since after the loop, it says to return false. However, since the 1 at the end of the list (-1, 0, 1) will get the program to return true, it wouldn't work because the list does not only contain positive numbers.
+
+### Question 34
+
+![image](https://user-images.githubusercontent.com/89219498/166409435-dc8d0df4-93fc-4928-a6b1-56412a9051a7.png)
+
+I didn't remember what a heuristic was. A heuristic is a strategy meant to solve a problem that would otherwise be too slow or not solveable. Finding the fastest route takes n! routes which means that it will not run in reasonable time, and therefore will require a heuristic.
+
+### Question 42
+
+![image](https://user-images.githubusercontent.com/89219498/166409678-8c0b83f4-5521-49e7-9f8f-442a2d7fce2d.png)
+
+I did the math wrong and thought that 8 bits would store 128 items, even though it would store 256 items. Therefore, it would have to be 7 bits instead.

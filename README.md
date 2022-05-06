@@ -10,6 +10,7 @@
 - [Week 4](https://github.com/jacksongolding/Jackson-Golding/issues/6)
 - [Week 5](https://github.com/jacksongolding/Jackson-Golding/issues/7)
 - [Week 6](https://github.com/jacksongolding/Jackson-Golding/issues/8)
+- [Week 7](https://github.com/jacksongolding/Jackson-Golding/issues/9)
 
 ### My GitHub Pages
 

@@ -74,3 +74,41 @@ I didn't remember what a heuristic was. A heuristic is a strategy meant to solve
 ![image](https://user-images.githubusercontent.com/89219498/166409678-8c0b83f4-5521-49e7-9f8f-442a2d7fce2d.png)
 
 I did the math wrong and thought that 8 bits would store 128 items, even though it would store 256 items. Therefore, it would have to be 7 bits instead.
+
+## Quiz 5
+
+### Question 8
+
+![image](https://user-images.githubusercontent.com/89219498/167209839-14f9f138-1cad-4d0e-b93a-bea0861574ef.png)
+
+I thought lossless compression didn't make the size of a file smaller. Lossy compression will take less time to transmit than lossless because it would be smaller.
+
+### Question 16
+
+![image](https://user-images.githubusercontent.com/89219498/167210126-36736cde-cb38-4a3d-a1aa-ebd4a3259440.png)
+
+I thought Program B would start at 2 and Program A would start at 1. However, they will both start at the same value, they will just do it in a slightly different order
+
+### Question 18
+
+![image](https://user-images.githubusercontent.com/89219498/167210396-9a5038ee-7ddb-4fbb-8991-74b95b154dab.png)
+
+I mixed up public key encrypting and symmetric encryption and thought that public key encryption uses the same key for encryption and decryption. However, it actually uses a public key for encryption and a private key for decryption.
+
+### Question 30
+
+![image](https://user-images.githubusercontent.com/89219498/167210710-e94619b5-1151-440e-8f4c-72166523ff04.png)
+
+The index should be changed every time the loop runs, and should not just be changed when the word is "the" or "a".
+
+### Question 43
+
+![image](https://user-images.githubusercontent.com/89219498/167211067-4a2e5d86-d7f2-4a82-87ce-90ccfddefbfb.png)
+
+I wasn't sure what proprietary meant so I thought that it meant a standard procedure. Since that isn't what it means, the Internet will not have a proprietary protocol and will scale as the number of users increases.
+
+### Question 45
+
+![image](https://user-images.githubusercontent.com/89219498/167211269-a91bd474-3d80-46c0-bcd9-4b114aff5c71.png)
+
+I thought that putting the average in the loop would make multiple averages get displayed to the user even though that is not the case. This means that both procedures will work.
